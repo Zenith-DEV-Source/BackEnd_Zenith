@@ -75,12 +75,13 @@ WSGI_APPLICATION = 'zenith.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 # Cambiar a la bbdd del proyecto
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}
+}'''
+
 
 
 # Password validation
